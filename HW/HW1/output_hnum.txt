@@ -1,0 +1,9 @@
+Homework 1,
+CS 3513, Spring 2014
+
+Question 2: Harmonic Number
+
+H_10000 = 9.787606036 using python floats and forward sum
+H_10000 = 9.7506 using decimal floats with 5 digits precision and forward sum
+H_10000 = 9.7873 using decimal floats with 5 digits precision and reverse sum
+H_10000 = 9.7876 using decimal floats with 5 digits precision and compensated sum

@@ -1,0 +1,23 @@
+Josh Harris
+Cs 3513
+Homework 5 
+Output
+
+
+The answer for 2 Part A is: 2.33214324775
+The answer for 2 Part B is: 2.33973430043
+
+The answer for 3 is: 2.55710139109
+
+The answer to problem 9 is:            
+0.003722 x2 - 0.1178 x + 1.225
+
+The answer to problem 12 is: 0.721156932087
+
+On problem 15, the graph shows the rational interpolent is smoother around the 100 to 300 x range, meaning the rational is a superior interpolant
+
+The answers to problem 17 are:
+Re at 5 is 6.90159241175
+Re at 50 is 1.59083540468
+Re at 500 is 0.557433520352
+Re at 5000 is 0.38682177204

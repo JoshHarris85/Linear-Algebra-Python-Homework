@@ -1,0 +1,15 @@
+
+CS 3513, Homework 3
+Problem Set 2.2
+Example Solution
+
+Problem 16: using theta = 53.
+  P1=1.0403, P2=-0.6261, P3=0.6261, P4=-0.7536, P5=0.5000
+
+Problem 17, assuming typo in last equation.
+   For R= 5 ohms, Loop currents (amps): i1=2.8293, i2=1.2683, i3=4.9756
+   For R=10 ohms, Loop currents (amps): i1=2.6667, i2=1.3333, i3=4.8889
+   For R=20 ohms, Loop currents (amps): i1=2.4516, i2=1.4194, i3=4.7742
+
+Problem 20: solving with LUdecomp3
+   Concentrations: c1=19.722, c2=19.444, c3=18.333, c4=17.000, c5=16.000

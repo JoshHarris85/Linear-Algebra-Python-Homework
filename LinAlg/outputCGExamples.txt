@@ -1,0 +1,6 @@
+Example 1, conjGrad results 
+     x=[ 3.69230769  0.92307692  3.53846154], 
+     iterations = 2 
+Example 2, conjGrad results 
+     x=[ 3.69230769  0.92307692  3.53846154], 
+     iterations = 2

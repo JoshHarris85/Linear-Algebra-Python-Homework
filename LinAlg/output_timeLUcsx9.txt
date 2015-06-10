@@ -1,0 +1,6 @@
+Creating matrices : 10 random matrices of 200x200
+starting timings
+timeLUdecomp best time 3.258902072906494 of 10 runs
+timeLUpivot best time 3.3529720306396484 of 10 runs
+timeLUpivotOP best time 0.3281710147857666 of 10 runs
+timeLUpivotComplete best time 0.49543118476867676 of 10 runs

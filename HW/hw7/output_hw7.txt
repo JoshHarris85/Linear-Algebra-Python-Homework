@@ -1,0 +1,26 @@
+
+CS 3513, Homework 7
+Problem Set 4.1
+Example Solution
+
+Problem 10: root search with Ridder's Method
+      searching range -6.0000 ... +6.0000
+      searching range -4.7000 ... +6.0000
+      searching range -3.2000 ... +6.0000
+      searching range +1.6000 ... +6.0000
+   roots = [-4.7123889803845493, -3.2088387319803062, 1.5707963267948966]
+
+Problem 11: root search with Newton's Method
+      searching range -6.0000 ... +6.0000
+      searching range -4.7000 ... +6.0000
+      searching range -3.2000 ... +6.0000
+      searching range +1.6000 ... +6.0000
+   roots = [-4.7123889803846897, -3.2088387319804816, 1.5707963267948966]
+
+Problem 23: intersecting circles
+   intersection point = [ 1.72057669  1.98038446] 
+   intersection point = [ 0.27942331  1.01961554] 
+
+Problem 26: circle through three points
+  Circle : (x - 4.830106)^2 + (y - 3.969922)^2 = 5.213824^2
+

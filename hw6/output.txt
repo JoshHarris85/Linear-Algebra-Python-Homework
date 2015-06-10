@@ -1,0 +1,17 @@
+The answer to problem 0 using polyfit is:  [-8.57005662  2.15121691 -0.04197119]
+
+Formed A:
+[[  1.10000000e+01   5.49800000e+01   3.89869400e+02]
+ [  5.49800000e+01   3.89869400e+02   3.10728457e+03]
+ [  3.89869400e+02   3.10728457e+03   2.63808673e+04]]
+
+Formed B:
+[    7.64       237.0955    2236.003879]
+
+The answer to Problem 1 using Choleski is:  [-8.57005662  2.15121691 -0.04197119]
+
+The answer to problem 2 using QR backsub is: [-8.57005644  2.15121679 -0.04197118]
+
+The answer to problem 3 using SVD is: [-8.57005644  2.15121679 -0.04197118]
+
+The answer to problem 4 using numpy's lstsq is:  [-8.57005644  2.15121679 -0.04197118]

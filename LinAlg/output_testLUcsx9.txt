@@ -1,0 +1,44 @@
+Problem 15 using LUdecomp
+    n : error, inf norm
+    2 : 6.6613e-16
+    3 : 1.7542e-14
+    4 : 3.2097e-13
+    5 : 3.0372e-11
+    6 : 8.4966e-11
+    7 : 2.6082e-08
+    8 : 6.3533e-07
+    9 : 2.3397e-05
+The largest n with solution within six significant digits is 8
+Problem 15 using LUpivot
+    n : error, inf norm
+    2 : 6.6613e-16
+    3 : 9.9920e-16
+    4 : 6.2028e-13
+    5 : 1.9931e-11
+    6 : 9.0185e-10
+    7 : 3.0095e-08
+    8 : 8.6974e-07
+    9 : 2.5550e-05
+The largest n with solution within six significant digits is 8
+Problem 15 using LUpivotOP
+    n : error, inf norm
+    2 : 6.6613e-16
+    3 : 9.9920e-16
+    4 : 6.2028e-13
+    5 : 1.9931e-11
+    6 : 9.0185e-10
+    7 : 3.0095e-08
+    8 : 8.6974e-07
+    9 : 2.5550e-05
+The largest n with solution within six significant digits is 8
+Problem 15 using LUpivotComplete
+    n : error, inf norm
+    2 : 6.6613e-16
+    3 : 1.0658e-14
+    4 : 6.7013e-13
+    5 : 7.7570e-12
+    6 : 1.6963e-10
+    7 : 9.1087e-09
+    8 : 9.1753e-07
+    9 : 5.5688e-05
+The largest n with solution within six significant digits is 8

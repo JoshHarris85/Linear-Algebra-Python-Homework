@@ -1,0 +1,79 @@
+The solution for the 1st equation using Monte Carlo at 10^2 is 0.7939258865754549
+The solution for the 1st equation using Monte Carlo at 10^4 is 0.7888755757829539
+The solution for the 1st equation using Monte Carlo at 10^6 is 0.785213195755883
+The solution for the 2nd equation using Monte Carlo at 10^2 is 31.967776984131717
+The solution for the 2nd equation using Monte Carlo at 10^4 is 32.31103395616143
+The solution for the 2nd equation using Monte Carlo at 10^6 is 32.688343147641945 
+
+Comparing Solutions
+
+The integral for the 1st equation using romberg's is: 0.78539816341 and the number of evaluations are: 32
+The integral for the 2nd equation using romberg's is: 32.666666491 and the number of evaluations are: 16 
+
+The percentage error in the 1st solution for 10^2 is 1.0857834361202792
+The percentage error in the 1st solution for 10^4 is 0.44275789470868243
+The percentage error in the 1st solution for 10^6 is 0.02355081311561223
+The percentage error in the 2nd solution for 10^2 is 2.1394576855818555
+The percentage error in the 2nd solution for 10^4 is 1.088671030860539
+The percentage error in the 2nd solution for 10^6 is 0.06635711253604476
+
+
+Output has been set to a precision to make the table neat. Problem 2 for Equation One: 
+
+n 	 h 	 T_h(f) 	 e_h 	 e_2h/e_h
+1 	 1.0000 	 0.7500 	 0.0354 	 22.1875 
+
+2 	 0.5000 	 0.7750 	 0.0104 	 3.4043 
+
+4 	 0.2500 	 0.7828 	 0.0026 	 3.9931 
+
+8 	 0.1250 	 0.7847 	 0.0007 	 3.9998 
+
+16 	 0.0625 	 0.7852 	 0.0002 	 4.0000 
+
+32 	 0.0312 	 0.7854 	 0.0000 	 4.0000 
+
+64 	 0.0156 	 0.7854 	 0.0000 	 4.0000 
+
+128 	 0.0078 	 0.7854 	 0.0000 	 4.0000 
+
+Output has been set to a precision to make the table neat. Problem 2 for Equation Two: 
+
+n 	 h 	 T_h(f) 	 e_h 	 e_2h/e_h
+1 	 1.0000 	 0.7500 	 31.9167 	 1.0235 
+
+2 	 0.5000 	 0.7750 	 31.8917 	 1.0008 
+
+4 	 0.2500 	 0.7828 	 31.8839 	 1.0002 
+
+8 	 0.1250 	 0.7847 	 31.8819 	 1.0001 
+
+16 	 0.0625 	 0.7852 	 31.8814 	 1.0000 
+
+32 	 0.0312 	 0.7854 	 31.8813 	 1.0000 
+
+64 	 0.0156 	 0.7854 	 31.8813 	 1.0000 
+
+128 	 0.0078 	 0.7854 	 31.8813 	 1.0000 
+
+The Original Array from Romberg for equation 1
+ [ 0.          0.78539816  0.78539816  0.78539816  0.78539816  0.78539816
+  0.78539816  0.78539816  0.78539562  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.          0.
+  0.        ] 
+
+The error ratios of equation 1
+ [[ -0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  1.00000000e+00   1.00000000e+00   0.00000000e+00]
+ [ -3.23802609e-06  -3.23802609e-06  -3.23802609e-06]]
+
+The Original Array from Romberg for equation 2
+ [  0.          32.66666667  32.66666667  32.66666667  32.66666667
+  32.66666667  32.66666667  32.66666666  32.66708984   0.           0.           0.
+   0.           0.           0.           0.           0.           0.           0.
+   0.           0.        ] 
+
+The error ratios of equation 2
+ [[ 0.00042318  0.          0.        ]
+ [ 0.00042318  0.00042318  0.        ]
+ [ 0.00042318  0.00042318  0.00042318]]

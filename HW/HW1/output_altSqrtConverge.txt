@@ -1,0 +1,12 @@
+Calculating sqrt(e^2).
+Error in final value is 0E-299
+Using true value to calc error.
+iter           |e_n|  |e_n+1|/|e_n|^1  |e_n+1|/|e_n|^2  |e_n+1|/|e_n|^3
+   0        4.671e+0         1.274e-1         2.729e-2         5.842e-3
+   1        5.953e-1         8.786e-3         1.476e-2         2.480e-2
+   2        5.230e-3         9.228e-7         1.764e-4         3.374e-2
+   3        4.826e-9        7.882e-19        1.633e-10         3.383e-2
+   4       3.804e-27        4.896e-55        1.287e-28         3.383e-2
+   5       1.862e-81       1.174e-163        6.301e-83         3.383e-2
+   6       2.19e-244
+e_n[7] is zero, skipping rest of list.

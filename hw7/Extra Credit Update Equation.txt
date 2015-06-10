@@ -1,0 +1,14 @@
+Cubic Newton Update Equation used: xn - (f(x)*2*f'(x) / 2f'(x)^2-f(x)*f'(x))
+
+
+Using taylor series with a degree of n = 3 
+F(x) = F'(xi) + F'(xi)(x-xi) + (F''(xi)(x-xi)^2/2!) + (F''(xi)(x-xi)^3/3!)
+0 = F(xi) + [F'(xi) + ((((F''(xi))((-F(xi))/(F'(xi)))/2!)] * (-F(xi)/F'(xi))
+0 = F(xi) + [F'(xi) + (((F''(xi)(F(xi)))) / (2*F'(xi))))] * (-F(xi)/F'(xi))
+0 = F(xi) + [F'(xi) + (((F''(xi)(F(xi)))) / (2*F'(xi))))] * (-F(xi+1)/F'(xi))
+xi+1 = xi - (f(xi)/f'(xi)) * (1 - ((f(xi)f''(xi))/(2(f'(xi)^2)))^-1
+finding the common denominator and taking the inverse
+xi+1 = xi - (F(xi)/F'(xi)) * ((1(2(f'(xi)^2) - F(xi)*F''(xi))) / (2(F'(xi)^2)))^-1 
+xi+1 = xi - (F(xi)) * ((2(F'(xi))) / (2(f'(xi)^2) - F(xi)*F''(xi)))
+reducing to the final solution used
+xi+1 = xi - ((F(xi)*2F'(xi)) / (2*F'(xi)^2 - F(xi)*F''(xi)))

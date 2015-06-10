@@ -1,0 +1,50 @@
+
+Using a couple of problems from HW2 to test LUpivotComplete.
+
+
+Problem 8:
+A = 
+[[ -3.   6.   4.]
+ [  9.  -8.  24.]
+ [-12.  24. -26.]]
+Row permutation P = [2 1 0]
+Col permutation Q = [2 1 0]
+PAQ = 
+[[-26.  24. -12.]
+ [ 24.  -8.   9.]
+ [  4.   6.  -3.]]
+LU decomposition PAQ= LU, LU (in one matrix) = 
+[[-26.          24.         -12.        ]
+ [ -0.92307692  14.15384615  -2.07692308]
+ [ -0.15384615   0.68478261  -3.42391304]]
+Solving Ax=b, with b = [ -3.  65. -42.]
+Solution x = [ 8.00952381  3.02857143  0.71428571]
+Verifying solution: 
+     residual ||Ax-b||_2 = 1.5694642960426368e-14
+     ||PAQ - dot(L,U)||_inf = 1.3322676295501878e-15
+
+
+Problem 25
+A = 
+[[  1.   0.   0.  10.]
+ [ -1.   1.   0.   4.]
+ [  0.  -1.   1.   5.]
+ [  0.   0.  -1.   6.]]
+Row permutation P = [0 1 2 3]
+Col permutation Q = [3 0 1 2]
+PAQ = 
+[[ 10.   1.   0.   0.]
+ [  4.  -1.   1.   0.]
+ [  5.   0.  -1.   1.]
+ [  6.   0.   0.  -1.]]
+Solving Ax=b, with b = [ 70.66207128  27.23309613  36.62070112 -58.92      ]
+Solution x = [ 40.42372387  55.56148103  77.06300845   3.02383474]
+Verifying solution: 
+     residual ||Ax-b||_2 = 1.7404671430534633e-14
+     ||PAQ - dot(L,U)||_inf = 1.1102230246251565e-16
+Unpacking x into variable names from problem:
+   T_1 = 40.423724
+   T_2 = 55.561481
+   T_3 = 77.063008
+   a   =  3.023835 
+

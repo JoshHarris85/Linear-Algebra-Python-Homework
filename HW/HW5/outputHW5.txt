@@ -1,0 +1,35 @@
+
+CS 3513, Homework 5
+Problem Set 3.1
+Example Solution
+
+Problem 2
+    Using three points for Lagrange : y=0 at x = 2.3321
+    Using four points for Lagrange  : y=0 at x = 2.3397
+
+Problem 3
+   Maximum y at x=0.7692 is 2.5571 using Neville's algorithm and four points
+
+Problem 9
+   Using Lagrange interpolation.
+      L0(h) = 0.0556*h^2 + -0.5000*h +    1.0
+      L1(h) = -0.1111*h^2 + 0.6667*h +   -0.0
+      L2(h) = 0.0556*h^2 + -0.1667*h +    0.0
+      p(h) =  1.225*L0(h) +  0.905*L1(h) +  0.652*L2(h)
+   p(h) = 0.003722*h^2 + -0.1178*h +  1.225
+
+
+Problem 12
+    Using cubic spline for inverse interpolation.
+    y=0 at x = 0.7212
+
+Problem 15
+   Figure saved as hw5p15.pdf
+
+Problem 17
+    Using cubic spline over log-log data.
+    At Re=    5, c_D = 6.9016
+    At Re=   50, c_D = 1.5908
+    At Re=  500, c_D = 0.5574
+    At Re= 5000, c_D = 0.3868
+
